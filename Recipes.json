@@ -1,0 +1,47 @@
+{
+  "1":{
+    "events": {
+      "_type": "List",
+  		"_access": {
+  			"_public": {
+  				"_read": true,
+  				"_write": false
+  			},
+  			"_owner": {
+  				"_read": true,
+  				"_write": true
+  			},
+  			"_admin": {
+  				"_read": true,
+  				"_write": true
+  			}
+  		},
+      "_list":{
+        "title": "String",
+        "startTime": {
+  				"_type": "Date",
+  				"_default": "now"
+  			},
+        "endTime": "Date"
+      }
+    },
+    "users":{
+  		"_type": "List",
+  		"_rules": {},
+  		"_list": {
+  			"_access": {
+  				"_public": false,
+  				"_owner": true,
+  				"_admin": true
+  			},
+  			"email": "String",
+      	"alias": "String",
+      	"password": {
+  				"_type": "Hash",
+  				"_method": "SHA1",
+  				"_exclude": true
+  			}
+  		}
+    }
+  }
+}

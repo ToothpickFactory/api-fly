@@ -1,0 +1,26 @@
+{
+  "events":{
+    "1q2w3e":{
+      "title": "Hello World!",
+      "starteTime": 123456879,
+      "endTime": 987654321
+    },
+    "9i8u7y":{
+      "title": "Bye World!",
+      "starteTime": 741852963,
+      "endTime": 369258147
+    }
+  },
+  "users":{
+    "5r6t7y": {
+      "email": "me@test.com",
+      "alias": "Acurite",
+      "password": "loopy"
+    },
+    "9i1q28": {
+      "email": "you@test.com",
+      "alias": "Dobby",
+      "password": "ackbar"
+    }
+  }
+}

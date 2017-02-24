@@ -1,0 +1,8 @@
+{
+  "ports": {
+    "http": 3000
+  },
+  "mongo":{
+    "db": "ApiFly"
+  }
+}

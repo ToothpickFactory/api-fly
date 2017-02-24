@@ -1,26 +1,60 @@
 {
-  "events":{
-    "1q2w3e":{
-      "title": "Hello World!",
-      "starteTime": 123456879,
-      "endTime": 987654321
+  "1":{
+    "events":{
+      "1q2w3e":{
+        "title": "Hello World!",
+        "starteTime": 123456879,
+        "endTime": 987654321
+      },
+      "9i8u7y":{
+        "title": "Bye World!",
+        "starteTime": 741852963,
+        "endTime": 369258147
+      }
     },
-    "9i8u7y":{
-      "title": "Bye World!",
-      "starteTime": 741852963,
-      "endTime": 369258147
+    "users":{
+      "5r6t7y": {
+        "email": "me@test.com",
+        "alias": "Acurite",
+        "password": "loopy"
+      },
+      "9i1q28": {
+        "email": "you@test.com",
+        "alias": "Dobby",
+        "password": "ackbar"
+      }
     }
   },
-  "users":{
-    "5r6t7y": {
-      "email": "me@test.com",
-      "alias": "Acurite",
-      "password": "loopy"
+  "2":{
+    "users":{
+      "k0j9h8":{
+        "name": "Mindi",
+        "phone": "123-456-7897"
+      },
+      "1qa2ws":{
+        "name": "Shannon",
+        "phone": "654-874-9632"
+      }
     },
-    "9i1q28": {
-      "email": "you@test.com",
-      "alias": "Dobby",
-      "password": "ackbar"
+    "messages":{
+      "asd123": {
+        "time": 12345678912,
+        "msg": "Oh hey guys! We ready to go play?",
+        "uid": "1qa2ws"
+      },
+      "mk12sd": {
+        "time": 12345678321,
+        "msg": "Yep! Lets go!",
+        "uid": "k0j9h8"
+      }
+    },
+    "events":{
+      "852plm": {
+        "title": "Play Day at Church",
+        "startDate": "852741963",
+        "startTime": "987654312",
+        "maxPeople": "8"
+      }
     }
   }
 }

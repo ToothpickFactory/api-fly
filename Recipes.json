@@ -43,5 +43,34 @@
   			}
   		}
     }
+  },
+  "2": {
+    "users":{
+      "_type": "List",
+      "_list":{
+        "name": "String",
+        "phone": "Sting"
+      }
+    },
+    "messages":{
+      "_type": "List",
+      "_list": {
+        "time": {
+          "_type": "Date",
+          "_default": "now"
+        },
+        "msg": "String",
+        "uid": "String"
+      }
+    },
+    "events":{
+      "_type": "List",
+      "_list": {
+        "title": "String",
+        "startDate": "Date",
+        "startTime": "Date",
+        "maxPeople": "Number"
+      }
+    }
   }
 }
